@@ -8,3 +8,32 @@
 * Pseudo-elements selectors (select and style a part of an element)
 * Attribute selectors (select elements based on an attribute or attribute value)
 
+### Group Selector Example:
+
+```CSS
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+```
+
+* Can be written as 
+  
+```
+
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
+```
+
