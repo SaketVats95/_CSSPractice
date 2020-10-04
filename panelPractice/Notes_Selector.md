@@ -54,4 +54,41 @@ BG Color with Opacity/Transparency
 
 When using the opacity property to add transparency to the background of an element, all of its child elements inherit the same transparency. This can make the text inside a fully transparent element hard to read.
 ```
+BackGround Image 
+```
+body {
+  background-image: url("paper.gif");
+}
+```
 
+BackGround Repeat:
+
+```
+body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
+}
+
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+```
+
+CSS background-attachment:
+
+```
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+```
+
+```
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+```
