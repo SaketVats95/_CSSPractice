@@ -55,3 +55,17 @@ div {
   padding: 25px 50px 75px 100px;
 }
 ```
+
+### Outline Offset
+
+The outline-offset property **adds space between an outline and the edge/border** of an element. The space between an element and its outline is transparent.
+
+
+```
+p {
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  outline-offset: 15px;
+}
+```
