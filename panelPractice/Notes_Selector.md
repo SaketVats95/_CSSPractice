@@ -37,3 +37,21 @@ h1, h2, p {
 }
 ```
 
+### BackGround
+
+* background-color
+* background-image
+* background-repeat
+* background-attachment
+* background-position
+
+BG Color with Opacity/Transparency
+
+```div {
+  background-color: green;
+  opacity: 0.3;
+}
+
+When using the opacity property to add transparency to the background of an element, all of its child elements inherit the same transparency. This can make the text inside a fully transparent element hard to read.
+```
+
